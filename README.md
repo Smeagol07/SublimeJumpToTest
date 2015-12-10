@@ -48,9 +48,9 @@ Patterns can be set up in configuration files, and are looking like that:
 ```
 Patterns are check in order from configuration and if one match the rest is not checked.
 `name` - can be used in keymap configuration (by defoult `ctrl+shift+.` jumps to test file and `ctrl+shift+,` to spec).
-`re_check_full_path` - if true file will be check by the full path otherwise only name will be checked.
+`re_check_full_path` - if `true` file will be check by the full path otherwise only name will be passed to regexps.
 `re_check_type` - regexp to check if pattern match file type.
-`re_is_test` - regexp to find out if current file is test or tested class.
+`re_is_test` - regexp to find out if current file is a test or a tested class.
 `re_from_test` - regex to transform test file name to tested class file name
 `re_to_test` - regex to transform from tested class file name to test file name
 
