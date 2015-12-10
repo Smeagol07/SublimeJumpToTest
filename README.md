@@ -46,7 +46,7 @@ Patterns can be set up in configuration files, and are looking like that:
     "re_to_test": ["(.+)\\.rb$", "\\1_spec.rb"]
   }]
 ```
-Patterns are check in order from configuration and if one match the rest is not checked.
+Patterns are checked in order from configuration and if one match the rest is not checked.
 `name` - can be used in keymap configuration (by defoult `ctrl+shift+.` jumps to test file and `ctrl+shift+,` to spec).
 `re_check_full_path` - if `true` file will be check by the full path otherwise only name will be passed to regexps.
 `re_check_type` - regexp to check if pattern match file type.
