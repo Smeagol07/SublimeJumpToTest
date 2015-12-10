@@ -1,10 +1,10 @@
-Sublime Text Jump To Test
-=========================
+Sublime Text - Jump To Test
+===========================
 
 
 Overview
 --------
-Plugin provides quick switch option between test and tested class.
+Plugin provides quick switch option between test and tested class.<br />
 I'ts preconfigured to work with ruby test and spec, but can work with almost anything.
 
 Installation
@@ -46,13 +46,13 @@ Patterns can be set up in configuration files, and are looking like that:
     "re_to_test": ["(.+)\\.rb$", "\\1_spec.rb"]
   }]
 ```
-Patterns are checked in order from configuration and if one match the rest is not checked.
-`name` - can be used in keymap configuration (by defoult `ctrl+shift+.` jumps to test file and `ctrl+shift+,` to spec).
-`re_check_full_path` - if `true` file will be check by the full path otherwise only name will be passed to regexps.
-`re_check_type` - regexp to check if pattern match file type.
-`re_is_test` - regexp to find out if current file is a test or a tested class.
-`re_from_test` - regex to transform test file name to tested class file name
-`re_to_test` - regex to transform from tested class file name to test file name
+Patterns are checked in order from configuration and if one match the rest is not checked.<br />
+- `name` - can be used in keymap configuration (by defoult `ctrl+shift+.` jumps to test file and `ctrl+shift+,` to spec).<br />
+- `re_check_full_path` - if `true` file will be check by the full path otherwise only name will be passed to regexps.<br />
+- `re_check_type` - regexp to check if pattern match file type.<br />
+- `re_is_test` - regexp to find out if current file is a test or a tested class.<br />
+- `re_from_test` - regex to transform test file name to tested class file name<br />
+- `re_to_test` - regex to transform from tested class file name to test file name
 
 2. Keymap
 
@@ -84,7 +84,7 @@ Different keys can be configured to use different patterns.
 
 Note
 ----
-I've been inspired by https://github.com/ahare/GoToTest
+I've been inspired by https://github.com/ahare/GoToTest<br />
 And I've copied bits and pieces from https://github.com/gs/sublime-text-go-to-file
 
 License
