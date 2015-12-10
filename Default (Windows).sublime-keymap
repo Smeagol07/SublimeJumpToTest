@@ -1,0 +1,20 @@
+[{
+    "keys": ["ctrl+shift+."],
+    "command": "jump_to_test",
+    "context": [{
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.ruby"
+    }],
+}, {
+    "keys": ["ctrl+shift+,"],
+    "command": "jump_to_test",
+    "args": {
+        "pattern_name": "ruby_spec"
+    },
+    "context": [{
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.ruby"
+    }],
+}]

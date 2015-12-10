@@ -1,0 +1,9 @@
+[
+  {
+    "caption": "Jump To Test",
+    "command": "jump_to_test",
+    "args": {
+        "pattern_name": "ruby_test"
+    }
+  }
+]
