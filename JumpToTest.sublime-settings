@@ -1,3 +1,18 @@
 {
-  "jtt_always_lookup_in_all_files": false
+  "jtt_always_lookup_in_all_files": false,
+  "jtt_pattens": [{
+    "name": "ruby_test",
+    "re_check_full_path": false,
+    "re_check_type": ".+.rb$",
+    "re_is_test": ".+_test.rb$",
+    "re_from_test": ["(.+)_test\\.rb$", "\\1.rb"],
+    "re_to_test": ["(.+)\\.rb$", "\\1_test.rb"]
+  }, {
+    "name": "ruby_spec",
+    "re_check_full_path": false,
+    "re_check_type": ".+.rb$",
+    "re_is_test": ".+_spec.rb$",
+    "re_from_test": ["(.+)_spec\\.rb$", "\\1.rb"],
+    "re_to_test": ["(.+)\\.rb$", "\\1_spec.rb"]
+  }]
 }
