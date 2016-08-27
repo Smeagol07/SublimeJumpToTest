@@ -90,7 +90,3 @@ And I've copied bits and pieces from https://github.com/gs/sublime-text-go-to-fi
 License
 -------
 WTFPL (http://www.wtfpl.net/) - I dont give a damn.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pbogut/sublimejumptotest/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
